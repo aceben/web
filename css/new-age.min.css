@@ -346,7 +346,7 @@ section.client .client-item{
 }
 
 section.contact {
-    text-align: center
+    /* text-align: center; */
 }
 
 section.contact h2 {
@@ -455,10 +455,10 @@ footer ul li a:hover {
 }
 
 .btn {
-    border-radius: 300px;
+    /* border-radius: 300px; */
     font-family: Lato, Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .btn-xl {

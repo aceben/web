@@ -199,6 +199,22 @@
         <div class="section-heading text-center">
           <h2>Contact Us</h2>
         </div>
+        <form id="feedback-form">
+          <div class="form-group">
+            <label for="emailET">Email address</label>
+            <input name="email" type="email" class="form-control" id="emailET" aria-describedby="emailHelp" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="phoneET">Phone number</label>
+            <input name="phone" type="tel" class="form-control" id="phoneET" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="messageET">Message</label>
+            <textarea name="message" class="form-control" id="messageET" rows="3"></textarea>
+          </div>
+          <a type="submit" class="btn btn-primary" href="javascript:void(0)" onclick="feedback()">Submit</a>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+        </form>
       </div>
     </section>
 
@@ -228,6 +244,26 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+
+    <script>
+        var feedback = function () {
+            $.ajax({
+                type: "POST",
+                url: 'https://admin-165210.appspot.com/api/feedback/aceben',
+                data: $('#feedback-form').serialize()
+            }).done(function (data) {
+                console.log(data)
+                if (data.success) {
+                    alert("Thank you. We will contact you shortly.")
+                }
+                else {
+                    alert("Error sending message. Please try again later.")
+                }
+            }).fail(function () {
+                alert("Error sending message. Please try again later.")
+            })
+        }
+    </script>
 
   </body>
 
