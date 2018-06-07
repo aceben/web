@@ -45,7 +45,7 @@ h6 {
 p {
     font-size: 18px;
     line-height: 1.5;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 section {
@@ -56,6 +56,10 @@ section h2 {
     font-size: 50px
 }
 
+#map {
+    height: 300px;
+}
+      
 #mainNav {
     border-color: rgba(34, 34, 34, .05);
     background-color: #fff;
@@ -349,6 +353,14 @@ section.contact {
     /* text-align: center; */
 }
 
+section.contact .contact-subtitle {
+    margin-top: 20px;
+}
+
+section.contact .detail-label {
+    margin-bottom: 0px;
+}
+
 section.contact h2 {
     margin-top: 0;
     margin-bottom: 25px
@@ -409,7 +421,8 @@ footer p {
 }
 
 footer ul {
-    margin-bottom: 0
+    margin-bottom: 0;
+    display: none;
 }
 
 footer ul li a {

@@ -199,22 +199,47 @@
         <div class="section-heading text-center">
           <h2>Contact Us</h2>
         </div>
-        <form id="feedback-form">
-          <div class="form-group">
-            <label for="emailET">Email address</label>
-            <input name="email" type="email" class="form-control" id="emailET" aria-describedby="emailHelp" placeholder="">
-          </div>
-          <div class="form-group">
-            <label for="phoneET">Phone number</label>
-            <input name="phone" type="tel" class="form-control" id="phoneET" placeholder="">
-          </div>
-          <div class="form-group">
-            <label for="messageET">Message</label>
-            <textarea name="message" class="form-control" id="messageET" rows="3"></textarea>
-          </div>
-          <a type="submit" class="btn btn-primary" href="javascript:void(0)" onclick="feedback()">Send</a>
-          <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
-        </form>
+        <div class="row">
+        <div class="col-lg-6">
+            <h3 class="contact-subtitle">Contact details</h3>
+            <h4 class="detail-label">Address</h4>
+            <p class="text-muted">65, Lebuh Presgrave, Georgetown, George Town, Penang</p>
+            <h4 class="detail-label">Email</h4>
+            <p class="text-muted">ace.ben.co@gmail.com</p>
+            <div id="map"></div>
+            <script>
+              var map;
+              function initMap() {
+                var coor = {lat: 5.4110683, lng: 100.3306285}
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  center: coor,
+                  zoom: 18
+                });
+                var marker = new google.maps.Marker({position: coor, map: map});
+              }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNQO30O0yJn2RdGTP3uDK_PPUWYatvJPg&callback=initMap" async defer></script>
+        </div>
+        <div class="col-lg-6">
+            <h3 class="contact-subtitle">Get in touch</h3>
+            <form id="feedback-form">
+              <div class="form-group">
+                <label for="emailET">Email address</label>
+                <input name="email" type="email" class="form-control" id="emailET" aria-describedby="emailHelp" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="phoneET">Phone number</label>
+                <input name="phone" type="tel" class="form-control" id="phoneET" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="messageET">Message</label>
+                <textarea name="message" class="form-control" id="messageET" rows="3"></textarea>
+              </div>
+              <a type="submit" class="btn btn-primary" href="javascript:void(0)" onclick="feedback()">Send</a>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+            </form>
+        </div>
+        </div>
       </div>
     </section>
 
