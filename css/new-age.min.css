@@ -341,6 +341,10 @@ section.industry .industry-item{
     text-align: center
 }
 
+section.industry .iot{
+    background: url(../img/bg-cta.jpg)
+}
+
 section.client {
     background: darkcyan
 }
