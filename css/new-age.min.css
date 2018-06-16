@@ -71,6 +71,12 @@ section h2 {
     letter-spacing: 1px
 }
 
+#mainNav .main-logo {
+    width: 100px;
+    height: 50px;
+    display: none
+}
+
 #mainNav .navbar-brand {
     color: #fdcc52;
     font-family: Catamaran, Helvetica, Arial, sans-serif;
@@ -154,6 +160,9 @@ section h2 {
     #mainNav.navbar-shrink .navbar-nav>li>a:hover {
         color: #fdcc52
     }
+    #mainNav.navbar-shrink .main-logo {
+        display: block
+    }
 }
 
 header.masthead {
@@ -164,7 +173,7 @@ header.masthead {
     color: #fff;
     background: url(../img/bg-pattern.png), #7b4397;
     background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: url(../img/bg-pattern.png), linear-gradient(to left, #215573, #099266);
+    background: url(../img/bg-pattern.png), linear-gradient(to left, #4CAF50, #4CAF50);
 }
 
 header.masthead .header-content {
@@ -185,6 +194,11 @@ header.masthead .device-container {
 
 header.masthead .device-container .screen img {
     border-radius: 3px
+}
+
+header.masthead .main-logo {
+    width: 400px;
+    height: 200px;
 }
 
 @media (min-width:992px) {
