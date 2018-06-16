@@ -164,7 +164,7 @@ header.masthead {
     color: #fff;
     background: url(../img/bg-pattern.png), #7b4397;
     background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: url(../img/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
+    background: url(../img/bg-pattern.png), linear-gradient(to left, #215573, #099266);
 }
 
 header.masthead .header-content {
@@ -272,7 +272,7 @@ section.features .device-container {
 }
 
 section.features {
-    background: aquamarine;
+    background: #b4ffe3;
 }
 
 section.features .feature-item {
@@ -333,20 +333,20 @@ section.cta .overlay {
     background-color: rgba(0, 0, 0, .5)
 }
 
+section.about {
+    background: #41b379;
+}
+
 section.industry {
-    background: palegoldenrod;
+    background: #41b379;
 }
 
 section.industry .industry-item{
     text-align: center
 }
 
-section.industry .iot{
-    background: url(../img/bg-cta.jpg)
-}
-
 section.client {
-    background: darkcyan
+    background: #b4ffe3;
 }
 
 section.client .client-item{
