@@ -173,7 +173,7 @@ header.masthead {
     color: #fff;
     background: url(../img/bg-pattern.png), #7b4397;
     background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: url(../img/bg-pattern.png), linear-gradient(to left, #4CAF50, #4CAF50);
+    background: url(../img/bg-pattern.png), linear-gradient(to left, #227770, #47885b);
 }
 
 header.masthead .header-content {
@@ -286,7 +286,7 @@ section.features .device-container {
 }
 
 section.features {
-    background: #b4ffe3;
+    background: #defff3;
 }
 
 section.features .feature-item {
@@ -348,12 +348,13 @@ section.cta .overlay {
 }
 
 section.about {
-    background: #41b379;
-    text-align: center
+    background: #ebfaff;
+    text-align: center;
+    height: 100vh;
 }
 
 section.industry {
-    background: #41b379;
+    background: #ebfaff;
 }
 
 section.industry .industry-item{
@@ -361,7 +362,7 @@ section.industry .industry-item{
 }
 
 section.client {
-    background: #b4ffe3;
+    background: #defff3;
 }
 
 section.client .client-item{
