@@ -324,7 +324,7 @@
         var feedback = function () {
             $.ajax({
                 type: "POST",
-                url: 'https://admin-165210.appspot.com/api/feedback/aceben',
+                url: 'http://admin-165210.appspot.com/api/v1/etedix/feedback',
                 data: $('#feedback-form').serialize()
             }).done(function (data) {
                 console.log(data)
