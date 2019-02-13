@@ -327,13 +327,7 @@
                 url: 'http://admin-165210.appspot.com/api/v1/etedix/feedback',
                 data: $('#feedback-form').serialize()
             }).done(function (data) {
-                console.log(data)
-                if (data.success) {
-                    alert("Thank you. We will contact you shortly.")
-                }
-                else {
-                    alert("Error sending message. Please try again later.")
-                }
+                alert("Thank you. We will contact you shortly.")
             }).fail(function () {
                 alert("Error sending message. Please try again later.")
             })
