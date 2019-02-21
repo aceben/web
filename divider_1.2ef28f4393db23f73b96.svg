@@ -1,0 +1,52 @@
+<svg id="circuit_lines_copy" data-name="circuit lines copy" xmlns="http://www.w3.org/2000/svg" width="2000" height="255" viewBox="0 0 2000 255">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #bababa;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #bababa;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M2015,3612H1852l-32,35H1605" transform="translate(0 -3455.5)"/>
+  <path class="cls-1" d="M2007,3608H1806l-16,17h-72l-12-12H1605" transform="translate(0 -3455.5)"/>
+  <circle class="cls-2" cx="1623.5" cy="198" r="1.5"/>
+  <circle id="Ellipse_8_copy" data-name="Ellipse 8 copy" class="cls-2" cx="1631.5" cy="198" r="1.5"/>
+  <circle id="Ellipse_8_copy_2" data-name="Ellipse 8 copy 2" class="cls-2" cx="1639.5" cy="198" r="1.5"/>
+  <path class="cls-1" d="M2006,3604H1601" transform="translate(0 -3455.5)"/>
+  <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-3" cx="1601" cy="191.5" r="4"/>
+  <circle id="Ellipse_1_copy_4" data-name="Ellipse 1 copy 4" class="cls-3" cx="1601" cy="157.5" r="4"/>
+  <circle id="Ellipse_1_copy_5" data-name="Ellipse 1 copy 5" class="cls-2" cx="1600.5" cy="148" r="2.22"/>
+  <path id="Shape_12_copy_2" data-name="Shape 12 copy 2" class="cls-1" d="M-368.5,3541H229l64-68H1659l25,25h317" transform="translate(0 -3455.5)"/>
+  <path id="Shape_12_copy" data-name="Shape 12 copy" class="cls-1" d="M-370.5,3533H227l63-68h83" transform="translate(0 -3455.5)"/>
+  <path class="cls-1" d="M1605,3481h50l24,25h320" transform="translate(0 -3455.5)"/>
+  <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-3" cx="377" cy="9.5" r="4"/>
+  <circle id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-3" cx="1601" cy="25.5" r="4"/>
+  <path class="cls-1" d="M262,3485l23-26H397" transform="translate(0 -3455.5)"/>
+  <circle class="cls-2" cx="399" cy="3.5" r="3"/>
+  <path id="Ellipse_2_copy" data-name="Ellipse 2 copy" class="cls-4" d="M260,3484a3,3,0,1,1-3,3A3,3,0,0,1,260,3484Zm-71.5,40a2.5,2.5,0,1,1-2.5,2.5A2.5,2.5,0,0,1,188.5,3524Z" transform="translate(0 -3455.5)"/>
+  <circle id="Ellipse_2_copy_2" data-name="Ellipse 2 copy 2" class="cls-2" cx="178.5" cy="71" r="2.5"/>
+  <circle id="Ellipse_2_copy_3" data-name="Ellipse 2 copy 3" class="cls-2" cx="168.5" cy="71" r="2.5"/>
+  <circle id="Ellipse_2_copy_4" data-name="Ellipse 2 copy 4" class="cls-2" cx="1713.5" cy="32" r="2.5"/>
+  <circle id="Ellipse_2_copy_4-2" data-name="Ellipse 2 copy 4" class="cls-2" cx="1703.5" cy="32" r="2.5"/>
+  <circle id="Ellipse_2_copy_4-3" data-name="Ellipse 2 copy 4" class="cls-2" cx="1693.5" cy="32" r="2.5"/>
+  <circle class="cls-3" cx="386.5" cy="174" r="2.5"/>
+  <circle id="Ellipse_7_copy" data-name="Ellipse 7 copy" class="cls-3" cx="386.5" cy="180" r="2.5"/>
+  <circle id="Ellipse_7_copy_2" data-name="Ellipse 7 copy 2" class="cls-2" cx="386.5" cy="252" r="2.5"/>
+  <path class="cls-1" d="M-8,3630H384" transform="translate(0 -3455.5)"/>
+  <path id="Shape_31_copy" data-name="Shape 31 copy" class="cls-1" d="M-8,3635H384" transform="translate(0 -3455.5)"/>
+  <path id="Shape_12_copy_3" data-name="Shape 12 copy 3" class="cls-1" d="M-370.5,3640H227l66,68h91" transform="translate(0 -3455.5)"/>
+</svg>
